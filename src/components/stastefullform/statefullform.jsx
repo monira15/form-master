@@ -51,7 +51,7 @@ const Statefullform = () => {
 
             <input type="submit" value="submit" />
             {
-                error&&<p className="text-red-500">{error}</p>
+                error&&<p className="text-red-700">{error}</p>
             }
         </form>
         </div>
